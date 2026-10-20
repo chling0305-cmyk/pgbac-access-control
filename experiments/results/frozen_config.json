@@ -1,0 +1,124 @@
+{
+  "calibration_detail": [
+    {
+      "normal": 111900,
+      "offset": 101,
+      "scalar_J": 0.6573,
+      "scalar_fpr": 0.2472,
+      "scalar_tpr": 0.9045,
+      "struct_fpr": 0.1177,
+      "struct_tpr": 0.5144,
+      "theta_scalar": 0.12,
+      "theta_struct": 0.3
+    },
+    {
+      "normal": 111714,
+      "offset": 202,
+      "scalar_J": 0.6521,
+      "scalar_fpr": 0.2502,
+      "scalar_tpr": 0.9023,
+      "struct_fpr": 0.1186,
+      "struct_tpr": 0.5105,
+      "theta_scalar": 0.12,
+      "theta_struct": 0.3
+    },
+    {
+      "normal": 111846,
+      "offset": 303,
+      "scalar_J": 0.6631,
+      "scalar_fpr": 0.2489,
+      "scalar_tpr": 0.912,
+      "struct_fpr": 0.1191,
+      "struct_tpr": 0.5191,
+      "theta_scalar": 0.12,
+      "theta_struct": 0.3
+    }
+  ],
+  "cfg_digest": "89723fcbcd21448e300005d246723ef22efbf1f845d67a67a16b147c56a22fec",
+  "note": "The evaluation stream (offset +3) is never used for selection. Any scan reported on it is a post-hoc diagnostic and is stored separately from these values.",
+  "protocol": "train-per-stream / select-on-calibration / evaluate-on-holdout",
+  "rule": {
+    "fpr_budget": 0.12,
+    "grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75
+    ],
+    "scalar_grid": [
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12,
+      0.14,
+      0.16,
+      0.18,
+      0.2,
+      0.22,
+      0.24,
+      0.26,
+      0.28,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75
+    ],
+    "theta_scalar": "Youden maximum of A1 union A3 on the calibration stream",
+    "theta_struct": "grid 0.05-0.75 step 0.05; highest detection among points whose own false-positive rate on the calibration stream does not exceed 0.12",
+    "theta_trans": "same value as theta_struct (single run parameter)"
+  },
+  "seed_base": 20260913,
+  "stream_params": {
+    "attack_rate": 0.06,
+    "duration": 400.0,
+    "lambda": 300.0
+  },
+  "streams": {
+    "calibration": [
+      {
+        "offset": 101,
+        "train_offset": 119,
+        "used_for_selection": true
+      },
+      {
+        "offset": 202,
+        "train_offset": 220,
+        "used_for_selection": true
+      },
+      {
+        "offset": 303,
+        "train_offset": 321,
+        "used_for_selection": true
+      }
+    ],
+    "evaluation": {
+      "offset": 3,
+      "train_offset": 21,
+      "used_for_selection": false
+    }
+  },
+  "values": {
+    "theta_scalar": 0.12,
+    "theta_struct": 0.3,
+    "theta_trans": 0.3
+  }
+}

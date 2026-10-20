@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="72.25mm" viewBox="0 0 1200 510" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Detection trade-offs over recorded false-positive rates</title>
+  <desc id="figure-description">Three partial ROC panels show A1, A3 and A7 using original scan results. No extrapolation is drawn below the observed union FPR floor of 0.0648.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="510" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1.8" />
+  <g id="legend">
+    <line id="legend-union" x1="30" y1="30" x2="80" y2="30" stroke="#28699B" stroke-width="3" />
+    <circle id="legend-union-dot" cx="55" cy="30" r="4" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <text id="legend-union-text-run-0" x="93.000" y="37.000" font-family="Arial" font-weight="normal" font-size="22.000" fill="#28699B">Statistical + conditional union</text>
+    <line id="legend-scalar" x1="600" y1="30" x2="650" y2="30" stroke="#BB6438" stroke-width="3" stroke-dasharray="6 5" />
+    <rect id="legend-square" x="621" y="26" width="8" height="8" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <text id="legend-scalar-text-run-0" x="665.000" y="37.000" font-family="Arial" font-weight="normal" font-size="22.000" fill="#BB6438">Adapted scalar comparator [10]</text>
+  </g>
+  <g id="panel-A1">
+    <text id="panel-title-A1-run-0" x="196.660" y="85.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(a) A1</text>
+    <rect id="unattainable-A1" x="75" y="112" width="66.95999999999998" height="261" rx="0" fill="#F0F1F3" stroke="none" stroke-width="1.8" />
+    <line id="grid-A10" x1="75" y1="373" x2="385" y2="373" stroke="#DCE3E8" stroke-width="1" />
+    <text id="y-0-run-0" x="49.433" y="380.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">0</text>
+    <line id="grid-A10.25" x1="75" y1="307.75" x2="385" y2="307.75" stroke="#DCE3E8" stroke-width="1" />
+    <text id="y-0.25-run-0" x="23.021" y="314.750" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">0.25</text>
+    <line id="grid-A10.5" x1="75" y1="242.5" x2="385" y2="242.5" stroke="#DCE3E8" stroke-width="1" />
+    <text id="y-0.5-run-0" x="33.587" y="249.500" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">0.5</text>
+    <line id="grid-A10.75" x1="75" y1="177.25" x2="385" y2="177.25" stroke="#DCE3E8" stroke-width="1" />
+    <text id="y-0.75-run-0" x="23.021" y="184.250" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">0.75</text>
+    <line id="grid-A11" x1="75" y1="112" x2="385" y2="112" stroke="#DCE3E8" stroke-width="1" />
+    <text id="y-1-run-0" x="49.433" y="119.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">1</text>
+    <line id="tick-A10" x1="75.0" y1="373" x2="75.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A10-run-0" x="61.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.0</text>
+    <line id="tick-A10.1" x1="178.33333333333334" y1="373" x2="178.33333333333334" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A10.1-run-0" x="164.432" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.1</text>
+    <line id="tick-A10.2" x1="281.6666666666667" y1="373" x2="281.6666666666667" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A10.2-run-0" x="267.765" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.2</text>
+    <line id="tick-A10.3" x1="385.0" y1="373" x2="385.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A10.3-run-0" x="371.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.3</text>
+    <line id="floor-A1" x1="141.95999999999998" y1="112" x2="141.95999999999998" y2="373" stroke="#586874" stroke-width="1.5" stroke-dasharray="6 5" />
+    <line id="axis-y-A1" x1="75" y1="112" x2="75" y2="373" stroke="#586874" stroke-width="1.5" />
+    <line id="axis-x-A1" x1="75" y1="373" x2="385" y2="373" stroke="#586874" stroke-width="1.5" />
+    <polyline id="curve-unionA1-shaft" points="141.95999999999998,219.5581 142.89,219.42759999999998 144.02666666666667,219.1144 145.37,218.5141 157.46,217.183 162.31666666666666,216.7393 163.24666666666667,216.7393 164.48666666666668,216.5827 165.00333333333333,216.4261 165.10666666666668,216.4261 168.10333333333335,216.2695 178.43666666666667,214.7818 178.74666666666667,214.7818 190.01,213.4507 199.10333333333332,212.4067 201.48,211.9369 210.16,210.60580000000002 214.50000000000003,209.5618 219.46,208.2046 220.08,208.2046 234.75333333333333,206.4298 238.47333333333336,205.96 238.57666666666668,205.96 238.88666666666666,205.96 239.1966666666667,205.96 245.5,205.96 249.73666666666665,205.5163 253.25,205.2292 269.26666666666665,203.1412 274.74333333333334,202.2277 276.39666666666665,201.784 277.3266666666667,201.62740000000002 277.94666666666666,201.49689999999998 282.1833333333334,201.1837 282.90666666666664,201.05319999999998 287.7633333333333,200.73999999999998 289.21000000000004,200.5834 289.7266666666667,200.5834 290.14,200.5834 290.86333333333334,200.5834 296.96,200.1397 297.99333333333334,200.1397 302.85,199.5394 304.4,199.4089 306.77666666666664,198.8086 309.36,198.8086 312.15,198.8086 317.00666666666666,198.652 321.76,198.0517 329.92333333333335,197.1643 337.6733333333333,195.3634 343.3566666666667,194.7631 349.1433333333333,194.1628 355.03333333333336,193.8757 360.82,193.5625 366.6066666666667,192.9622" fill="none" stroke="#28699B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+    <circle id="marker-unionA10" cx="366.6066666666667" cy="192.9622" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA11" cx="360.82" cy="193.5625" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA12" cx="355.03333333333336" cy="193.8757" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA13" cx="349.1433333333333" cy="194.1628" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA14" cx="343.3566666666667" cy="194.7631" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA15" cx="337.6733333333333" cy="195.3634" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA16" cx="329.92333333333335" cy="197.1643" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA17" cx="321.76" cy="198.0517" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA18" cx="317.00666666666666" cy="198.652" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA19" cx="312.15" cy="198.8086" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA110" cx="309.36" cy="198.8086" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA111" cx="306.77666666666664" cy="198.8086" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA112" cx="304.4" cy="199.4089" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA113" cx="302.85" cy="199.5394" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA114" cx="297.99333333333334" cy="200.1397" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA115" cx="296.96" cy="200.1397" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA116" cx="290.86333333333334" cy="200.5834" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA117" cx="290.14" cy="200.5834" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA118" cx="289.7266666666667" cy="200.5834" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA119" cx="289.21000000000004" cy="200.5834" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA120" cx="287.7633333333333" cy="200.73999999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA121" cx="282.90666666666664" cy="201.05319999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA122" cx="282.1833333333334" cy="201.1837" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA123" cx="277.94666666666666" cy="201.49689999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA124" cx="277.3266666666667" cy="201.62740000000002" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA125" cx="276.39666666666665" cy="201.784" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA126" cx="274.74333333333334" cy="202.2277" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA127" cx="269.26666666666665" cy="203.1412" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA128" cx="253.25" cy="205.2292" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA129" cx="249.73666666666665" cy="205.5163" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA130" cx="245.5" cy="205.96" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA131" cx="239.1966666666667" cy="205.96" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA132" cx="238.88666666666666" cy="205.96" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA133" cx="238.57666666666668" cy="205.96" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA134" cx="238.47333333333336" cy="205.96" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA135" cx="234.75333333333333" cy="206.4298" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA136" cx="220.08" cy="208.2046" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA137" cx="219.46" cy="208.2046" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA138" cx="214.50000000000003" cy="209.5618" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA139" cx="210.16" cy="210.60580000000002" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA140" cx="201.48" cy="211.9369" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA141" cx="199.10333333333332" cy="212.4067" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA142" cx="190.01" cy="213.4507" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA143" cx="178.74666666666667" cy="214.7818" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA144" cx="178.43666666666667" cy="214.7818" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA145" cx="168.10333333333335" cy="216.2695" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA146" cx="165.10666666666668" cy="216.4261" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA147" cx="165.00333333333333" cy="216.4261" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA148" cx="164.48666666666668" cy="216.5827" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA149" cx="163.24666666666667" cy="216.7393" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA150" cx="162.31666666666666" cy="216.7393" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA151" cx="157.46" cy="217.183" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA152" cx="145.37" cy="218.5141" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA153" cx="144.02666666666667" cy="219.1144" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA154" cx="142.89" cy="219.42759999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA155" cx="141.95999999999998" cy="219.5581" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <polyline id="curve-scalarA1-shaft" points="76.47873865977384,371.80480824270177 78.20701446838451,370.16141957641673 80.65617537363492,368.06983400114484 86.37704556363495,364.18546078992557 97.63394361116329,362.24327418431596 113.05903625592912,359.70349170005727 121.91298398132497,356.26731539782486 130.19392047605845,352.3829421866056 141.06264962539615,344.1659988551803 154.16797099764176,335.05266170578136 162.38421267601015,330.4212936462507 174.54683815264997,325.64052661705784 181.89432086840122,321.90555237550086 190.11980466339318,317.5729822552948 207.61513143184237,305.9198626216371 221.63542234982305,287.69318832283915 234.82392277168097,256.76760160274756 255.49853765864393,220.91184888380081 284.98088968788477,186.6994848311391 332.7533905152033,157.8654836863194 385.0,142.26019060925304" fill="none" stroke="#BB6438" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <rect id="marker-scalarA16" x="329.7533905152033" y="154.8654836863194" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA17" x="281.98088968788477" y="183.6994848311391" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA18" x="252.49853765864393" y="217.91184888380081" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA19" x="231.82392277168097" y="253.76760160274756" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA110" x="218.63542234982305" y="284.69318832283915" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA111" x="204.61513143184237" y="302.9198626216371" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA112" x="187.11980466339318" y="314.5729822552948" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA113" x="178.89432086840122" y="318.90555237550086" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA114" x="171.54683815264997" y="322.64052661705784" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA115" x="159.38421267601015" y="327.4212936462507" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA116" x="151.16797099764176" y="332.05266170578136" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA117" x="138.06264962539615" y="341.1659988551803" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA118" x="127.19392047605845" y="349.3829421866056" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA119" x="118.91298398132497" y="353.26731539782486" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA120" x="110.05903625592912" y="356.70349170005727" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA121" x="94.63394361116329" y="359.24327418431596" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA122" x="83.37704556363495" y="361.18546078992557" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA123" x="77.65617537363492" y="365.06983400114484" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA124" x="75.20701446838451" y="367.16141957641673" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA125" x="73.47873865977384" y="368.80480824270177" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <text id="xlabel-A1-run-0" x="116.626" y="441.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Normal false-positive rate</text>
+  </g>
+  <g id="panel-A3">
+    <text id="panel-title-A3-run-0" x="591.004" y="85.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(b) A3</text>
+    <rect id="unattainable-A3" x="470" y="112" width="66.96000000000004" height="261" rx="0" fill="#F0F1F3" stroke="none" stroke-width="1.8" />
+    <line id="grid-A30" x1="470" y1="373" x2="780" y2="373" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A30.25" x1="470" y1="307.75" x2="780" y2="307.75" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A30.5" x1="470" y1="242.5" x2="780" y2="242.5" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A30.75" x1="470" y1="177.25" x2="780" y2="177.25" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A31" x1="470" y1="112" x2="780" y2="112" stroke="#DCE3E8" stroke-width="1" />
+    <line id="tick-A30" x1="470.0" y1="373" x2="470.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A30-run-0" x="456.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.0</text>
+    <line id="tick-A30.1" x1="573.3333333333334" y1="373" x2="573.3333333333334" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A30.1-run-0" x="559.432" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.1</text>
+    <line id="tick-A30.2" x1="676.6666666666667" y1="373" x2="676.6666666666667" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A30.2-run-0" x="662.765" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.2</text>
+    <line id="tick-A30.3" x1="780.0" y1="373" x2="780.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A30.3-run-0" x="766.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.3</text>
+    <line id="floor-A3" x1="536.96" y1="112" x2="536.96" y2="373" stroke="#586874" stroke-width="1.5" stroke-dasharray="6 5" />
+    <line id="axis-y-A3" x1="470" y1="112" x2="470" y2="373" stroke="#586874" stroke-width="1.5" />
+    <line id="axis-x-A3" x1="470" y1="373" x2="780" y2="373" stroke="#586874" stroke-width="1.5" />
+    <polyline id="curve-unionA3-shaft" points="536.96,194.1628 537.89,194.1628 539.0266666666666,194.0062 540.37,193.58859999999999 552.46,186.0979 557.3166666666666,185.9674 558.2466666666667,185.8108 559.4866666666667,185.8108 560.0033333333333,185.8108 560.1066666666667,185.8108 563.1033333333334,182.209 573.4366666666667,176.467 573.7466666666667,176.467 585.01,166.1053 594.1033333333334,159.9196 596.48,159.763 605.16,148.9837 609.5,144.364 614.46,144.364 615.08,144.364 629.7533333333333,139.9009 633.4733333333334,136.8994 633.5766666666667,136.8994 633.8866666666667,136.8994 634.1966666666667,136.8994 640.5,136.7428 644.7366666666667,134.1589 648.25,133.7152 664.2666666666667,122.6488 669.7433333333333,119.62119999999999 671.3966666666666,119.62119999999999 672.3266666666667,119.62119999999999 672.9466666666667,119.49069999999998 677.1833333333334,113.7226 677.9066666666666,113.7226 682.7633333333333,113.7226 684.21,113.7226 684.7266666666667,113.7226 685.14,113.7226 685.8633333333333,113.7226 691.96,113.7226 692.9933333333333,113.7226 697.85,113.7226 699.4,113.7226 701.7766666666666,113.59210000000002 704.36,113.59210000000002 707.15,113.59210000000002 712.0066666666667,112.0 716.76,112.0 724.9233333333334,112.0 732.6733333333333,112.0 738.3566666666667,112.0 744.1433333333333,112.0 750.0333333333333,112.0 755.8199999999999,112.0 761.6066666666667,112.0" fill="none" stroke="#28699B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+    <circle id="marker-unionA30" cx="761.6066666666667" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA31" cx="755.8199999999999" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA32" cx="750.0333333333333" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA33" cx="744.1433333333333" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA34" cx="738.3566666666667" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA35" cx="732.6733333333333" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA36" cx="724.9233333333334" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA37" cx="716.76" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA38" cx="712.0066666666667" cy="112.0" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA39" cx="707.15" cy="113.59210000000002" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA310" cx="704.36" cy="113.59210000000002" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA311" cx="701.7766666666666" cy="113.59210000000002" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA312" cx="699.4" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA313" cx="697.85" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA314" cx="692.9933333333333" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA315" cx="691.96" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA316" cx="685.8633333333333" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA317" cx="685.14" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA318" cx="684.7266666666667" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA319" cx="684.21" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA320" cx="682.7633333333333" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA321" cx="677.9066666666666" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA322" cx="677.1833333333334" cy="113.7226" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA323" cx="672.9466666666667" cy="119.49069999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA324" cx="672.3266666666667" cy="119.62119999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA325" cx="671.3966666666666" cy="119.62119999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA326" cx="669.7433333333333" cy="119.62119999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA327" cx="664.2666666666667" cy="122.6488" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA328" cx="648.25" cy="133.7152" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA329" cx="644.7366666666667" cy="134.1589" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA330" cx="640.5" cy="136.7428" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA331" cx="634.1966666666667" cy="136.8994" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA332" cx="633.8866666666667" cy="136.8994" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA333" cx="633.5766666666667" cy="136.8994" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA334" cx="633.4733333333334" cy="136.8994" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA335" cx="629.7533333333333" cy="139.9009" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA336" cx="615.08" cy="144.364" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA337" cx="614.46" cy="144.364" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA338" cx="609.5" cy="144.364" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA339" cx="605.16" cy="148.9837" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA340" cx="596.48" cy="159.763" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA341" cx="594.1033333333334" cy="159.9196" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA342" cx="585.01" cy="166.1053" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA343" cx="573.7466666666667" cy="176.467" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA344" cx="573.4366666666667" cy="176.467" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA345" cx="563.1033333333334" cy="182.209" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA346" cx="560.1066666666667" cy="185.8108" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA347" cx="560.0033333333333" cy="185.8108" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA348" cx="559.4866666666667" cy="185.8108" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA349" cx="558.2466666666667" cy="185.8108" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA350" cx="557.3166666666666" cy="185.9674" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA351" cx="552.46" cy="186.0979" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA352" cx="540.37" cy="193.58859999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA353" cx="539.0266666666666" cy="194.0062" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA354" cx="537.89" cy="194.1628" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA355" cx="536.96" cy="194.1628" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <polyline id="curve-scalarA3-shaft" points="471.47873865977385,359.6190738699008 473.2070144683845,356.5975744211687 475.65617537363494,355.0148842337376 481.37704556363497,353.4321940463065 492.63394361116326,347.8208379272326 508.05903625592913,342.64112458654904 516.9129839813249,337.4614112458655 525.1939204760585,294.2971334068357 536.0626496253961,248.54299889746414 549.1679709976418,183.2210584343991 557.3842126760102,168.54520396912898 569.54683815265,154.44487320837928 576.8943208684012,145.81201764057332 585.1198046633932,139.62513781697905 602.6151314318424,129.5534729878721 616.6354223498231,123.36659316427782 629.8239227716809,119.05016538037486 650.498537658644,114.877618522602 679.9808896878848,112.7194046306505 727.7533905152034,112.43164277839031 780.0,112.11187868580504" fill="none" stroke="#BB6438" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <rect id="marker-scalarA36" x="724.7533905152034" y="109.43164277839031" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA37" x="676.9808896878848" y="109.7194046306505" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA38" x="647.498537658644" y="111.877618522602" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA39" x="626.8239227716809" y="116.05016538037486" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA310" x="613.6354223498231" y="120.36659316427782" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA311" x="599.6151314318424" y="126.55347298787211" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA312" x="582.1198046633932" y="136.62513781697905" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA313" x="573.8943208684012" y="142.81201764057332" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA314" x="566.54683815265" y="151.44487320837928" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA315" x="554.3842126760102" y="165.54520396912898" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA316" x="546.1679709976418" y="180.2210584343991" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA317" x="533.0626496253961" y="245.54299889746414" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA318" x="522.1939204760585" y="291.2971334068357" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA319" x="513.9129839813249" y="334.4614112458655" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA320" x="505.05903625592913" y="339.64112458654904" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA321" x="489.63394361116326" y="344.8208379272326" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA322" x="478.37704556363497" y="350.4321940463065" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA323" x="472.65617537363494" y="352.0148842337376" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA324" x="470.2070144683845" y="353.5975744211687" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA325" x="468.47873865977385" y="356.6190738699008" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <text id="xlabel-A3-run-0" x="511.626" y="441.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Normal false-positive rate</text>
+  </g>
+  <g id="panel-A7">
+    <text id="panel-title-A7-run-0" x="986.660" y="85.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(c) A7</text>
+    <rect id="unattainable-A7" x="865" y="112" width="66.96000000000004" height="261" rx="0" fill="#F0F1F3" stroke="none" stroke-width="1.8" />
+    <line id="grid-A70" x1="865" y1="373" x2="1175" y2="373" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A70.25" x1="865" y1="307.75" x2="1175" y2="307.75" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A70.5" x1="865" y1="242.5" x2="1175" y2="242.5" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A70.75" x1="865" y1="177.25" x2="1175" y2="177.25" stroke="#DCE3E8" stroke-width="1" />
+    <line id="grid-A71" x1="865" y1="112" x2="1175" y2="112" stroke="#DCE3E8" stroke-width="1" />
+    <line id="tick-A70" x1="865.0" y1="373" x2="865.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A70-run-0" x="851.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.0</text>
+    <line id="tick-A70.1" x1="968.3333333333334" y1="373" x2="968.3333333333334" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A70.1-run-0" x="954.432" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.1</text>
+    <line id="tick-A70.2" x1="1071.6666666666667" y1="373" x2="1071.6666666666667" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A70.2-run-0" x="1057.765" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.2</text>
+    <line id="tick-A70.3" x1="1175.0" y1="373" x2="1175.0" y2="380" stroke="#586874" stroke-width="1.5" />
+    <text id="x-A70.3-run-0" x="1161.099" y="404.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">0.3</text>
+    <line id="floor-A7" x1="931.96" y1="112" x2="931.96" y2="373" stroke="#586874" stroke-width="1.5" stroke-dasharray="6 5" />
+    <line id="axis-y-A7" x1="865" y1="112" x2="865" y2="373" stroke="#586874" stroke-width="1.5" />
+    <line id="axis-x-A7" x1="865" y1="373" x2="1175" y2="373" stroke="#586874" stroke-width="1.5" />
+    <polyline id="curve-unionA7-shaft" points="931.96,350.7889 932.89,350.2669 934.0266666666666,348.727 935.37,345.9343 947.46,339.0439 952.3166666666666,336.7471 953.2466666666667,336.2251 954.4866666666667,334.9462 955.0033333333333,334.1893 955.1066666666667,334.1893 958.1033333333334,333.4063 968.4366666666667,331.8925 968.7466666666667,331.6315 980.01,328.3168 989.1033333333334,324.4801 991.48,319.6255 1000.16,313.753 1004.5,310.6993 1009.46,307.8805 1010.08,304.56579999999997 1024.7533333333333,302.269 1028.4733333333334,302.008 1028.5766666666666,301.486 1028.8866666666668,300.9901 1029.1966666666667,300.9901 1035.5,298.4323 1039.7366666666667,293.8387 1043.25,285.40840000000003 1059.2666666666667,269.5657 1064.7433333333333,262.4143 1066.3966666666665,257.5597 1067.3266666666666,257.3248 1067.9466666666667,256.8028 1072.1833333333334,255.5239 1072.9066666666668,254.506 1077.7633333333333,253.98399999999998 1079.21,252.9661 1079.7266666666667,252.2092 1080.14,251.94819999999999 1080.8633333333332,251.94819999999999 1086.96,248.8945 1087.9933333333333,247.6156 1092.85,245.0578 1094.4,244.7968 1096.7766666666666,242.239 1099.3600000000001,241.4821 1102.15,239.94219999999999 1107.0066666666667,237.3844 1111.76,236.6275 1119.9233333333334,232.29489999999998 1127.6733333333332,228.1972 1133.3566666666666,225.1435 1139.1433333333334,220.7848 1145.0333333333333,217.4701 1150.82,215.6953 1156.6066666666666,210.3187" fill="none" stroke="#28699B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+    <circle id="marker-unionA70" cx="1156.6066666666666" cy="210.3187" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA71" cx="1150.82" cy="215.6953" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA72" cx="1145.0333333333333" cy="217.4701" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA73" cx="1139.1433333333334" cy="220.7848" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA74" cx="1133.3566666666666" cy="225.1435" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA75" cx="1127.6733333333332" cy="228.1972" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA76" cx="1119.9233333333334" cy="232.29489999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA77" cx="1111.76" cy="236.6275" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA78" cx="1107.0066666666667" cy="237.3844" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA79" cx="1102.15" cy="239.94219999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA710" cx="1099.3600000000001" cy="241.4821" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA711" cx="1096.7766666666666" cy="242.239" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA712" cx="1094.4" cy="244.7968" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA713" cx="1092.85" cy="245.0578" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA714" cx="1087.9933333333333" cy="247.6156" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA715" cx="1086.96" cy="248.8945" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA716" cx="1080.8633333333332" cy="251.94819999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA717" cx="1080.14" cy="251.94819999999999" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA718" cx="1079.7266666666667" cy="252.2092" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA719" cx="1079.21" cy="252.9661" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA720" cx="1077.7633333333333" cy="253.98399999999998" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA721" cx="1072.9066666666668" cy="254.506" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA722" cx="1072.1833333333334" cy="255.5239" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA723" cx="1067.9466666666667" cy="256.8028" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA724" cx="1067.3266666666666" cy="257.3248" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA725" cx="1066.3966666666665" cy="257.5597" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA726" cx="1064.7433333333333" cy="262.4143" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA727" cx="1059.2666666666667" cy="269.5657" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA728" cx="1043.25" cy="285.40840000000003" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA729" cx="1039.7366666666667" cy="293.8387" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA730" cx="1035.5" cy="298.4323" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA731" cx="1029.1966666666667" cy="300.9901" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA732" cx="1028.8866666666668" cy="300.9901" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA733" cx="1028.5766666666666" cy="301.486" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA734" cx="1028.4733333333334" cy="302.008" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA735" cx="1024.7533333333333" cy="302.269" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA736" cx="1010.08" cy="304.56579999999997" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA737" cx="1009.46" cy="307.8805" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA738" cx="1004.5" cy="310.6993" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA739" cx="1000.16" cy="313.753" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA740" cx="991.48" cy="319.6255" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA741" cx="989.1033333333334" cy="324.4801" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA742" cx="980.01" cy="328.3168" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA743" cx="968.7466666666667" cy="331.6315" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA744" cx="968.4366666666667" cy="331.8925" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA745" cx="958.1033333333334" cy="333.4063" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA746" cx="955.1066666666667" cy="334.1893" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA747" cx="955.0033333333333" cy="334.1893" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA748" cx="954.4866666666667" cy="334.9462" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA749" cx="953.2466666666667" cy="336.2251" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA750" cx="952.3166666666666" cy="336.7471" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA751" cx="947.46" cy="339.0439" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA752" cx="935.37" cy="345.9343" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA753" cx="934.0266666666666" cy="348.727" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA754" cx="932.89" cy="350.2669" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="marker-unionA755" cx="931.96" cy="350.7889" r="3" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <polyline id="curve-scalarA7-shaft" points="866.4787386597739,371.46771037182 868.2070144683845,370.44618395303326 870.6561753736349,367.3816046966732 876.377045563635,359.720156555773 887.6339436111633,353.84637964774953 903.0590362559291,346.1849315068493 911.9129839813249,339.8003913894325 920.1939204760585,327.79745596868884 931.0626496253961,320.9021526418787 944.1679709976418,308.3884540117417 952.3842126760102,299.4500978473581 964.54683815265,290.7671232876712 971.8943208684012,288.2133072407045 980.1198046633932,282.5949119373777 997.6151314318424,277.23189823874753 1011.6354223498231,271.8688845401174 1024.823922771681,264.46281800391387 1045.498537658644,257.8228962818004 1074.9808896878849,248.1183953033268 1122.7533905152034,234.8385518590998 1175.0,222.91967383273652" fill="none" stroke="#BB6438" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <rect id="marker-scalarA76" x="1119.7533905152034" y="231.8385518590998" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA77" x="1071.9808896878849" y="245.1183953033268" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA78" x="1042.498537658644" y="254.8228962818004" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA79" x="1021.823922771681" y="261.46281800391387" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA710" x="1008.6354223498231" y="268.8688845401174" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA711" x="994.6151314318424" y="274.23189823874753" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA712" x="977.1198046633932" y="279.5949119373777" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA713" x="968.8943208684012" y="285.2133072407045" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA714" x="961.54683815265" y="287.7671232876712" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA715" x="949.3842126760102" y="296.4500978473581" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA716" x="941.1679709976418" y="305.3884540117417" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA717" x="928.0626496253961" y="317.9021526418787" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA718" x="917.1939204760585" y="324.79745596868884" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA719" x="908.9129839813249" y="336.8003913894325" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA720" x="900.0590362559291" y="343.1849315068493" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA721" x="884.6339436111633" y="350.84637964774953" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA722" x="873.377045563635" y="356.720156555773" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA723" x="867.6561753736349" y="364.3816046966732" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA724" x="865.2070144683845" y="367.44618395303326" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <rect id="marker-scalarA725" x="863.4787386597739" y="368.46771037182" width="6" height="6" rx="0" fill="#BB6438" stroke="#BB6438" stroke-width="1.8" />
+    <text id="xlabel-A7-run-0" x="906.626" y="441.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Normal false-positive rate</text>
+    <text id="ylabel-run-0" x="25.000" y="75.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Detection rate</text>
+    <text id="floor-note-run-0" x="25.000" y="483.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#586874">Shaded range: below the observed union FPR floor (0.0648). Lines join scan points; no smoothing.</text>
+  </g>
+</svg>

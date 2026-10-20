@@ -1,0 +1,5 @@
+﻿评分,阈值θ,选点规则,选点来源
+ρ_struct,0.3,自身误报率 ≤ 0.12 的网格点中检出最高,S1–S3 校准流选出后冻结（frozen_config.json，digest 89723fcbcd21）
+ρ_trans,0.3,与 ρ_struct 同阈值（单一运行参数）,S1–S3 校准流选出后冻结（frozen_config.json，digest 89723fcbcd21）
+合成ρ,0.45,Youden 极大（仅用于聚合方式对照）,评估流，仅作聚合方式对照，不作运营判据
+θ_ctx,0.6,配置项 ctx_anom_limit,配置项

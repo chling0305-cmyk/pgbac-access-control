@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript listed under references."
+title: "PGB-AC: evaluation data and code for Blockchain Access Control for Multi-Center Securities Operations"
+type: software
+authors:
+  - name: "The PGB-AC manuscript authors"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-20
+references:
+  - type: article
+    title: "Blockchain Access Control for Multi-Center Securities Operations: Trust Root Anchoring and Policy Governance"
+    status: submitted
+    year: 2026
+    notes: "Submitted to Scientific Reports."

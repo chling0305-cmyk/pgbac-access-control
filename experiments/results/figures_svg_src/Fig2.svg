@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="121.83333333333333mm" viewBox="0 0 1200 860" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">From deviation evidence to stateful access decisions</title>
+  <desc id="figure-description">Separate evidence provenance and normalization, followed by early gates, state update and requirement union.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="860" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2.5" />
+  <g id="panel-a-evidence">
+    <text id="panel-a-title-run-0" x="25.000" y="32.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(a) Evidence construction and composition</text>
+    <rect id="struct-input-box" x="25" y="75" width="240" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="struct-input-label-0-run-0" x="61.118" y="117.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Configured graph</text>
+    <text id="struct-input-label-1-run-0" x="44.956" y="144.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Role-permitted objects</text>
+    <rect id="struct-transform-box" x="315" y="75" width="270" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="struct-transform-label-0-run-0" x="344.971" y="104.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Random walk → rarity</text>
+    <text id="struct-transform-label-1-run-0" x="344.409" y="131.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Derived structural score</text>
+    <text id="struct-transform-label-2-run-0" x="419.990" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Eq. (3)</text>
+    <rect id="struct-normalize-box" x="635" y="75" width="230" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="struct-normalize-label-0-run-0" x="645.000" y="104.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Role-object endpoints</text>
+    <text id="struct-normalize-label-1-run-0" x="669.424" y="131.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Normalize, Eq. (2)</text>
+    <text id="struct-normalize-label-2-run-0" x="694.536" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">ρ</text>
+    <text id="struct-normalize-label-2-run-1" x="705.913" y="163.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">struct</text>
+    <text id="struct-normalize-label-2-run-2" x="741.118" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="struct-normalize-label-2-run-3" x="746.675" y="158.400" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∈</text>
+    <text id="struct-normalize-label-2-run-4" x="760.991" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> [0,1]</text>
+    <polyline id="struct-compute-shaft" points="265,125 315,125" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="struct-compute-head" points="315.000,125.000 305.000,129.600 305.000,120.400" fill="#28699B" />
+    <polyline id="struct-scale-shaft" points="585,125 635,125" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="struct-scale-head" points="635.000,125.000 625.000,129.600 625.000,120.400" fill="#28699B" />
+    <rect id="trans-input-box" x="25" y="215" width="240" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="trans-input-label-0-run-0" x="47.217" y="257.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Normal-only training</text>
+    <text id="trans-input-label-1-run-0" x="49.951" y="284.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Role-wise sequences</text>
+    <rect id="trans-transform-box" x="315" y="215" width="270" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="trans-transform-label-0-run-0" x="356.655" y="244.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Fit transition matrix</text>
+    <text id="trans-transform-label-1-run-0" x="353.848" y="271.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Score current window</text>
+    <text id="trans-transform-label-2-run-0" x="399.438" y="298.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Eqs. (4)-(5)</text>
+    <rect id="trans-normalize-box" x="635" y="215" width="230" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="trans-normalize-label-0-run-0" x="660.005" y="244.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Training endpoints</text>
+    <text id="trans-normalize-label-1-run-0" x="669.424" y="271.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Normalize, Eq. (2)</text>
+    <text id="trans-normalize-label-2-run-0" x="696.132" y="298.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">ρ</text>
+    <text id="trans-normalize-label-2-run-1" x="707.509" y="303.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">trans</text>
+    <text id="trans-normalize-label-2-run-2" x="739.522" y="298.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="trans-normalize-label-2-run-3" x="745.079" y="298.400" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∈</text>
+    <text id="trans-normalize-label-2-run-4" x="759.395" y="298.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> [0,1]</text>
+    <polyline id="trans-fit-shaft" points="265,265 315,265" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="trans-fit-head" points="315.000,265.000 305.000,269.600 305.000,260.400" fill="#28699B" />
+    <polyline id="trans-scale-shaft" points="585,265 635,265" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="trans-scale-head" points="635.000,265.000 625.000,269.600 625.000,260.400" fill="#28699B" />
+    <text id="window-label-run-0" x="323.870" y="350.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">Current subject: ≤5 transitions</text>
+    <polyline id="window-input-shaft" points="450,333 450,315" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="window-input-head" points="450.000,315.000 454.600,325.000 445.400,325.000" fill="#586874" />
+    <rect id="behavior-box" x="635" y="345" width="230" height="65" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" stroke-dasharray="8 6" />
+    <text id="behavior-label-0-run-0" x="692.521" y="370.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">ρ</text>
+    <text id="behavior-label-0-run-1" x="703.898" y="375.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">behav</text>
+    <text id="behavior-label-0-run-2" x="743.133" y="370.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="behavior-label-0-run-3" x="748.689" y="370.400" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∈</text>
+    <text id="behavior-label-0-run-4" x="763.006" y="370.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> [0,1]</text>
+    <text id="behavior-label-1-run-0" x="657.720" y="397.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Simulated Beta input</text>
+    <rect id="composite-box" x="965" y="205" width="210" height="110" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="composite-label-0-run-0" x="990.535" y="253.540" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Composite risk</text>
+    <text id="composite-label-1-run-0" x="1024.620" y="280.540" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">ρ, Eq. (6)</text>
+    <polyline id="struct-to-composite-shaft" points="865,125 925,125 925,230 965,230" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="struct-to-composite-head" points="965.000,230.000 955.000,234.600 955.000,225.400" fill="#28699B" />
+    <polyline id="trans-to-composite-shaft" points="865,265 965,265" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="trans-to-composite-head" points="965.000,265.000 955.000,269.600 955.000,260.400" fill="#28699B" />
+    <polyline id="behavior-to-composite-shaft" points="865,378 925,378 925,295 965,295" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="behavior-to-composite-head" points="965.000,295.000 955.000,299.600 955.000,290.400" fill="#28699B" />
+    <text id="normalization-note-run-0" x="25.000" y="396.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Two reference populations</text>
+    <line id="panel-separator" x1="25" y1="436" x2="1175" y2="436" stroke="#94A5B3" stroke-width="2.5" />
+  </g>
+  <g id="panel-b-state-and-decision">
+    <text id="panel-b-title-run-0" x="25.000" y="474.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(b) Stateful requirements and final disposition</text>
+    <rect id="request-box" x="25" y="510" width="240" height="70" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="request-label-0-run-0" x="35.425" y="551.080" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">Request + admitted policy</text>
+    <rect id="rho-input-box" x="315" y="510" width="260" height="70" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="rho-input-label-0-run-0" x="346.255" y="551.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Composite ρ from (a)</text>
+    <rect id="other-requirements-box" x="630" y="510" width="255" height="70" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="other-requirements-label-0-run-0" x="668.981" y="537.260" font-family="Arial" font-weight="bold" font-size="18.000" fill="#26313B">Policy, context, trust</text>
+    <text id="other-requirements-label-1-run-0" x="643.695" y="564.260" font-family="Arial" font-weight="normal" font-size="18.000" fill="#26313B">Requirements + policy effect</text>
+    <rect id="gates-box" x="25" y="630" width="240" height="105" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="gates-label-0-run-0" x="91.636" y="661.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Early gates</text>
+    <text id="gates-label-1-run-0" x="39.937" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Baseline / endorsement</text>
+    <text id="gates-label-2-run-0" x="46.626" y="715.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Policy presence / trust</text>
+    <rect id="state-box" x="315" y="630" width="260" height="105" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="state-label-0-run-0" x="348.877" y="661.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">State update, Eq. (8)</text>
+    <text id="state-label-1-run-0" x="390.562" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">(ℓ,c) → C</text>
+    <text id="state-label-1-run-1" x="471.461" y="693.700" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">ρ</text>
+    <text id="state-label-1-run-2" x="479.652" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">(ℓ)</text>
+    <text id="state-label-2-run-0" x="331.040" y="715.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Level 3 contributes a veto</text>
+    <rect id="union-box" x="630" y="630" width="255" height="105" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="union-label-0-run-0" x="641.943" y="661.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Veto or constraint union</text>
+    <text id="union-label-1-run-0" x="658.627" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">C</text>
+    <text id="union-label-1-run-1" x="673.071" y="693.700" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">π</text>
+    <text id="union-label-1-run-2" x="683.006" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="union-label-1-run-3" x="688.562" y="688.900" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∪</text>
+    <text id="union-label-1-run-4" x="702.596" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> C</text>
+    <text id="union-label-1-run-5" x="722.596" y="693.700" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">ctx</text>
+    <text id="union-label-1-run-6" x="740.996" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="union-label-1-run-7" x="746.553" y="688.900" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∪</text>
+    <text id="union-label-1-run-8" x="760.586" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> C</text>
+    <text id="union-label-1-run-9" x="780.586" y="693.700" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">trust</text>
+    <text id="union-label-1-run-10" x="808.592" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> </text>
+    <text id="union-label-1-run-11" x="814.148" y="688.900" font-family="Segoe UI Symbol" font-weight="normal" font-size="20.000" fill="#26313B">∪</text>
+    <text id="union-label-1-run-12" x="828.181" y="688.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B"> C</text>
+    <text id="union-label-1-run-13" x="848.181" y="693.700" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">ρ</text>
+    <text id="union-label-2-run-0" x="727.490" y="715.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Eq. (9)</text>
+    <rect id="output-box" x="935" y="630" width="240" height="105" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="output-label-0-run-0" x="975.557" y="675.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Final disposition</text>
+    <text id="output-label-1-run-0" x="963.848" y="702.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">permit / refine / deny</text>
+    <polyline id="request-to-gates-shaft" points="145,580 145,630" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="request-to-gates-head" points="145.000,630.000 140.400,620.000 149.600,620.000" fill="#28699B" />
+    <polyline id="score-to-state-shaft" points="445,580 445,630" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="score-to-state-head" points="445.000,630.000 440.400,620.000 449.600,620.000" fill="#28699B" />
+    <polyline id="other-to-union-shaft" points="757,580 757,630" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="other-to-union-head" points="757.000,630.000 752.400,620.000 761.600,620.000" fill="#28699B" />
+    <polyline id="gates-pass-shaft" points="265,682 315,682" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="gates-pass-head" points="315.000,682.000 305.000,686.600 305.000,677.400" fill="#28699B" />
+    <text id="pass-label-run-0" x="270.989" y="669.000" font-family="Arial" font-weight="normal" font-size="18.000" fill="#586874">pass</text>
+    <polyline id="state-to-union-shaft" points="575,682 630,682" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="state-to-union-head" points="630.000,682.000 620.000,686.600 620.000,677.400" fill="#28699B" />
+    <polyline id="union-to-output-shaft" points="885,682 935,682" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="union-to-output-head" points="935.000,682.000 925.000,686.600 925.000,677.400" fill="#28699B" />
+    <polyline id="early-deny-shaft" points="145,735 145,802 1055,802 1055,735" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="early-deny-head" points="1055.000,735.000 1059.600,745.000 1050.400,745.000" fill="#586874" />
+    <text id="early-deny-label-run-0" x="379.883" y="830.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Early gate failure → deny; risk state is unchanged</text>
+    <text id="state-note-run-0" x="266.838" y="773.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">Matching retry: hold state. Promotion: at most one level per new observation.</text>
+  </g>
+</svg>

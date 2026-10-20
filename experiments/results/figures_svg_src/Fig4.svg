@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="102.0mm" viewBox="0 0 1200 720" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Binding the approved release to local snapshot admission</title>
+  <desc id="figure-description">A version, Merkle root and authenticated count check separates admission from optional localization.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="720" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2.5" />
+  <g id="panel-a-admission">
+    <text id="panel-a-title-run-0" x="25.000" y="32.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(a) Approval-to-admission path</text>
+    <rect id="preparation-box" x="25" y="75" width="345" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="preparation-label-0-run-0" x="73.032" y="104.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Approval-side preparation</text>
+    <text id="preparation-label-1-run-0" x="57.969" y="131.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Canonical encoding; sort by pid</text>
+    <text id="preparation-label-2-run-0" x="80.771" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Reject duplicate identifiers</text>
+    <rect id="effective-state-box" x="455" y="75" width="345" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="effective-state-label-0-run-0" x="511.904" y="104.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Effective approved state</text>
+    <text id="effective-state-label-1-run-0" x="589.743" y="131.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">v, R</text>
+    <text id="effective-state-label-1-run-1" x="625.300" y="136.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">v</text>
+    <text id="effective-state-label-1-run-2" x="632.500" y="131.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">, N</text>
+    <text id="effective-state-label-1-run-3" x="658.057" y="136.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">v</text>
+    <text id="effective-state-label-2-run-0" x="489.912" y="158.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Approval + governed activation</text>
+    <polyline id="approve-release-shaft" points="370,125 455,125" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="approve-release-head" points="455.000,125.000 445.000,129.600 445.000,120.400" fill="#28699B" />
+    <rect id="received-box" x="25" y="245" width="345" height="110" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="received-label-0-run-0" x="93.960" y="279.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Received snapshot Π′</text>
+    <text id="received-label-1-run-0" x="128.521" y="306.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">v′, N′; rebuild R′</text>
+    <text id="received-label-2-run-0" x="90.786" y="333.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Preserve received order</text>
+    <rect id="joint-check-box" x="455" y="245" width="345" height="110" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="joint-check-label-0-run-0" x="520.244" y="279.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Joint admission check</text>
+    <text id="joint-check-label-1-run-0" x="530.486" y="306.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">v′ = v; R′ = R</text>
+    <text id="joint-check-label-1-run-1" x="643.571" y="311.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">v</text>
+    <text id="joint-check-label-1-run-2" x="650.771" y="306.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">; N′ = N</text>
+    <text id="joint-check-label-1-run-3" x="717.314" y="311.200" font-family="Arial" font-weight="normal" font-size="14.400" fill="#26313B">v</text>
+    <text id="joint-check-label-2-run-0" x="541.357" y="333.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Eq. (1), Algorithm 1</text>
+    <polyline id="local-to-check-shaft" points="370,300 455,300" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="local-to-check-head" points="455.000,300.000 445.000,304.600 445.000,295.400" fill="#28699B" />
+    <polyline id="reference-to-check-shaft" points="627,175 627,245" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="reference-to-check-head" points="627.000,245.000 622.400,235.000 631.600,235.000" fill="#28699B" />
+    <text id="effective-read-label-run-0" x="642.000" y="213.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">reference</text>
+    <rect id="admit-box" x="900" y="225" width="275" height="65" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="admit-label-0-run-0" x="948.809" y="264.220" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">All agree → admit</text>
+    <rect id="reject-box" x="900" y="330" width="275" height="65" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="reject-label-0-run-0" x="921.375" y="369.220" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Any mismatch → reject</text>
+    <polyline id="accept-branch-shaft" points="800,280 850,280 850,257 900,257" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="accept-branch-head" points="900.000,257.000 890.000,261.600 890.000,252.400" fill="#28699B" />
+    <polyline id="reject-branch-shaft" points="800,320 850,320 850,362 900,362" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="reject-branch-head" points="900.000,362.000 890.000,366.600 890.000,357.400" fill="#586874" />
+    <polyline id="localize-branch-shaft" points="1037,395 1037,425 875,425" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <polygon id="localize-branch-head" points="875.000,425.000 885.000,420.400 885.000,429.600" fill="#586874" />
+    <text id="localize-label-run-0" x="25.000" y="433.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Optional localization: authenticated reference + proofs → positions or unavailable</text>
+    <line id="panel-separator" x1="25" y1="460" x2="1175" y2="460" stroke="#94A5B3" stroke-width="2.5" />
+  </g>
+  <g id="panel-b-separated-checks">
+    <text id="panel-b-title-run-0" x="25.000" y="500.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(b) Root agreement alone is insufficient</text>
+    <rect id="stale-case" x="25" y="530" width="535" height="160" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="stale-heading-run-0" x="48.000" y="565.000" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Stale version</text>
+    <text id="stale-equality-run-0" x="48.000" y="612.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#26313B">R′ = R</text>
+    <text id="stale-equality-run-1" x="111.744" y="617.520" font-family="Arial" font-weight="normal" font-size="16.560" fill="#26313B">v</text>
+    <text id="stale-equality-run-2" x="120.024" y="612.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#26313B">, N′ = N</text>
+    <text id="stale-equality-run-3" x="196.549" y="617.520" font-family="Arial" font-weight="normal" font-size="16.560" fill="#26313B">v</text>
+    <text id="stale-version-run-0" x="48.000" y="657.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#28699B">v′ ≠ v → reject</text>
+    <rect id="padding-case" x="605" y="530" width="570" height="160" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="padding-heading-run-0" x="628.000" y="565.000" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Duplicate-last padding</text>
+    <rect id="leaf-0-0-box" x="628" y="590" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-0-0-label-0-run-0" x="640.438" y="613.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">a</text>
+    <rect id="leaf-0-1-box" x="675" y="590" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-0-1-label-0-run-0" x="687.438" y="613.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">b</text>
+    <rect id="leaf-0-2-box" x="722" y="590" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-0-2-label-0-run-0" x="735.000" y="613.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">c</text>
+    <text id="leaf-count-0-run-0" x="842.000" y="614.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">N = 3</text>
+    <rect id="leaf-1-0-box" x="628" y="642" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-1-0-label-0-run-0" x="640.438" y="665.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">a</text>
+    <rect id="leaf-1-1-box" x="675" y="642" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-1-1-label-0-run-0" x="687.438" y="665.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">b</text>
+    <rect id="leaf-1-2-box" x="722" y="642" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-1-2-label-0-run-0" x="735.000" y="665.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">c</text>
+    <rect id="leaf-1-3-box" x="769" y="642" width="36" height="34" rx="9" fill="#FFFFFF" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="leaf-1-3-label-0-run-0" x="782.000" y="665.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">c</text>
+    <text id="leaf-count-1-run-0" x="842.000" y="666.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">N = 4</text>
+    <polyline id="three-leaf-root-shaft" points="900,607 948,607" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="three-leaf-root-head" points="948.000,607.000 938.000,611.600 938.000,602.400" fill="#586874" />
+    <polyline id="four-leaf-root-shaft" points="900,659 948,659" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="four-leaf-root-head" points="948.000,659.000 938.000,663.600 938.000,654.400" fill="#586874" />
+    <rect id="same-root-box" x="956" y="589" width="195" height="87" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="same-root-label-0-run-0" x="1004.599" y="625.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Same root</text>
+    <text id="same-root-label-1-run-0" x="983.466" y="652.400" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Different counts</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="70.83333333333333mm" viewBox="0 0 1200 500" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Governance, local enforcement and asynchronous audit</title>
+  <desc id="figure-description">Distinct flows for released policy content, effective governance reference and asynchronous batch roots.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="500" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2.5" />
+  <g id="governed-reference">
+    <text id="governed-heading-run-0" x="25.000" y="31.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">Governed reference and shared evidence</text>
+    <rect id="approval-box" x="25" y="65" width="300" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="approval-label-0-run-0" x="51.626" y="107.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Collective policy approval</text>
+    <text id="approval-label-1-run-0" x="60.215" y="134.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Release + activation rules</text>
+    <rect id="reference-box" x="445" y="65" width="300" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="reference-label-0-run-0" x="473.833" y="107.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Effective policy reference</text>
+    <text id="reference-label-1-run-0" x="496.606" y="134.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Version + root + count</text>
+    <rect id="audit-ledger-box" x="865" y="65" width="300" height="100" rx="9" fill="#EEF7F3" stroke="#32876C" stroke-width="2.5" />
+    <text id="audit-ledger-label-0-run-0" x="901.099" y="107.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Audit commitment state</text>
+    <text id="audit-ledger-label-1-run-0" x="916.621" y="134.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Confirmed batch roots</text>
+    <polyline id="activate-shaft" points="325,115 445,115" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="activate-head" points="445.000,115.000 435.000,119.600 435.000,110.400" fill="#28699B" />
+    <text id="activate-label-run-0" x="352.260" y="101.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">activate</text>
+  </g>
+  <g id="local-admission-and-evaluation">
+    <text id="local-heading-run-0" x="25.000" y="229.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">Off-chain</text>
+    <rect id="snapshot-box" x="25" y="265" width="300" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="snapshot-label-0-run-0" x="52.183" y="307.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Released policy snapshot</text>
+    <text id="snapshot-label-1-run-0" x="61.597" y="334.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Canonical policy package</text>
+    <rect id="admission-box" x="445" y="265" width="300" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="admission-label-0-run-0" x="497.207" y="307.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Snapshot admission</text>
+    <text id="admission-label-1-run-0" x="481.616" y="334.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Verify version, root, count</text>
+    <rect id="decision-box" x="865" y="265" width="300" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="decision-label-0-run-0" x="923.311" y="307.900" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Request evaluation</text>
+    <text id="decision-label-1-run-0" x="884.658" y="334.900" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Administration + enforcement</text>
+    <polyline id="policy-package-shaft" points="175,165 175,265" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="policy-package-head" points="175.000,265.000 170.400,255.000 179.600,255.000" fill="#28699B" />
+    <text id="package-label-run-0" x="189.000" y="192.000" font-family="Arial" font-weight="normal" font-size="18.000" fill="#586874">publish</text>
+    <polyline id="read-reference-shaft" points="595,165 595,265" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="read-reference-head" points="595.000,265.000 590.400,255.000 599.600,255.000" fill="#28699B" />
+    <text id="read-label-run-0" x="608.000" y="192.000" font-family="Arial" font-weight="normal" font-size="18.000" fill="#586874">read effective state</text>
+    <polyline id="deliver-shaft" points="325,315 445,315" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="deliver-head" points="445.000,315.000 435.000,319.600 435.000,310.400" fill="#28699B" />
+    <text id="delivery-label-run-0" x="357.015" y="299.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">deliver</text>
+    <polyline id="admit-shaft" points="745,315 865,315" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="admit-head" points="865.000,315.000 855.000,319.600 855.000,310.400" fill="#28699B" />
+    <text id="admit-label-run-0" x="781.770" y="299.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">admit</text>
+  </g>
+  <g id="asynchronous-audit">
+    <rect id="record-and-batch-box" x="865" y="420" width="300" height="60" rx="9" fill="#EEF7F3" stroke="#32876C" stroke-width="2.5" />
+    <text id="record-and-batch-label-0-run-0" x="884.976" y="456.400" font-family="Arial" font-weight="bold" font-size="20.000" fill="#26313B">Local records → batch root</text>
+    <polyline id="local-records-shaft" points="1015,365 1015,420" fill="none" stroke="#32876C" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <polygon id="local-records-head" points="1015.000,420.000 1010.400,410.000 1019.600,410.000" fill="#32876C" />
+    <text id="record-label-run-0" x="948.979" y="402.000" font-family="Arial" font-weight="normal" font-size="18.000" fill="#32876C">record</text>
+    <polyline id="submit-audit-root-shaft" points="1165,450 1185,450 1185,115 1165,115" fill="none" stroke="#32876C" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <polygon id="submit-audit-root-head" points="1165.000,115.000 1175.000,110.400 1175.000,119.600" fill="#32876C" />
+    <text id="async-label-run-0" x="25.000" y="443.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#32876C">Dashed path: asynchronous audit submission and confirmation</text>
+    <text id="overview-note-run-0" x="25.000" y="477.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#586874">Governance state and policy packages travel on independent paths.</text>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="87.83333333333333mm" viewBox="0 0 1200 620" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Worked example of risk-state stabilization</title>
+  <desc id="figure-description">Illustrative evaluation calls show instantaneous band, stable level, retry hold, one-level promotion, consecutive-count promotion and direct de-escalation under Eq. (8).</desc>
+  <rect id="background" x="0" y="0" width="1200" height="620" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1.8" />
+  <g id="state-trace">
+    <text id="configured-run-0" x="25.000" y="32.000" font-family="Arial" font-weight="bold" font-size="23.000" fill="#26313B">Configured rule: h</text>
+    <text id="configured-run-1" x="224.318" y="37.520" font-family="Arial" font-weight="bold" font-size="16.560" fill="#26313B">up</text>
+    <text id="configured-run-2" x="244.549" y="32.000" font-family="Arial" font-weight="bold" font-size="23.000" fill="#26313B"> = 0.50, h</text>
+    <text id="configured-run-3" x="342.356" y="37.520" font-family="Arial" font-weight="bold" font-size="16.560" fill="#26313B">down</text>
+    <text id="configured-run-4" x="385.583" y="32.000" font-family="Arial" font-weight="bold" font-size="23.000" fill="#26313B"> = 0.40, m = 2; initial (ℓ,c) = (0,0)</text>
+    <line id="legend-band" x1="50" y1="68" x2="100" y2="68" stroke="#586874" stroke-width="2.6" stroke-dasharray="6 5" />
+    <text id="legend-band-label-run-0" x="113.000" y="75.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#586874">Instantaneous band b(ρ)</text>
+    <line id="legend-level" x1="490" y1="68" x2="540" y2="68" stroke="#28699B" stroke-width="3.3" />
+    <circle id="legend-marker" cx="514" cy="68" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <text id="legend-level-label-run-0" x="553.000" y="75.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#28699B">Stable level ℓ</text>
+    <line id="grid-0" x1="105" y1="348" x2="1170" y2="348" stroke="#DCE3E8" stroke-width="1" />
+    <text id="tick-0-run-0" x="71.321" y="355.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <line id="grid-1" x1="105" y1="286" x2="1170" y2="286" stroke="#DCE3E8" stroke-width="1" />
+    <text id="tick-1-run-0" x="71.321" y="293.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <line id="grid-2" x1="105" y1="224" x2="1170" y2="224" stroke="#DCE3E8" stroke-width="1" />
+    <text id="tick-2-run-0" x="71.321" y="231.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">2</text>
+    <line id="grid-3" x1="105" y1="162" x2="1170" y2="162" stroke="#DCE3E8" stroke-width="1" />
+    <text id="tick-3-run-0" x="71.321" y="169.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">3</text>
+    <text id="ylabel-run-0" x="25.000" y="115.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Level</text>
+    <line id="axis-y" x1="105" y1="150" x2="105" y2="355" stroke="#586874" stroke-width="1.5" />
+    <line id="axis-x" x1="105" y1="355" x2="1170" y2="355" stroke="#586874" stroke-width="1.5" />
+    <polyline id="instantaneous-band-shaft" points="120,348 214,348 214,286 308,286 308,286 402,286 402,162 496,162 496,162 590,162 590,162 684,162 684,162 778,162 778,162 872,162 872,286 966,286 966,224 1060,224 1060,224 1154,224 1154,348" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <polyline id="stable-level-shaft" points="120,348 214,348 214,348 308,348 308,348 402,348 402,286 496,286 496,286 590,286 590,224 684,224 684,224 778,224 778,162 872,162 872,286 966,286 966,286 1060,286 1060,224 1154,224 1154,348" fill="none" stroke="#28699B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+    <circle id="stable-1" cx="214" cy="348" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-2" cx="308" cy="348" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-3" cx="402" cy="286" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-4" cx="496" cy="286" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-5" cx="590" cy="224" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-6" cx="684" cy="224" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-7" cx="778" cy="162" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-8" cx="872" cy="286" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-9" cx="966" cy="286" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-10" cx="1060" cy="224" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <circle id="stable-11" cx="1154" cy="348" r="5" fill="#28699B" stroke="#28699B" stroke-width="2" />
+    <text id="note-start-run-0" x="125.000" y="121.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">0.35 alone does not promote level 0</text>
+    <text id="note-gap-run-0" x="724.092" y="121.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#28699B">Gap &gt; 1: promote one level</text>
+    <text id="note-retry-run-0" x="477.000" y="240.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#BB6438">retry</text>
+    <line id="retry-pointer" x1="496" y1="247" x2="496" y2="274" stroke="#BB6438" stroke-width="1.5" stroke-dasharray="6 5" />
+    <text id="note-down-run-0" x="884.000" y="327.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#32876C">direct decrease</text>
+    <text id="row-Call-run-0" x="44.486" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Call</text>
+    <text id="row-ρ-run-0" x="71.054" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">ρ</text>
+    <text id="row-δ-run-0" x="71.311" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">δ</text>
+    <text id="row-c-run-0" x="72.500" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">c</text>
+    <text id="initial-run-0" x="99.491" y="385.000" font-family="Arial" font-weight="normal" font-size="18.000" fill="#586874">initial</text>
+    <text id="call-1-run-0" x="208.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">1</text>
+    <text id="rho-1-run-0" x="193.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.35</text>
+    <text id="delta-1-run-0" x="208.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-1-run-0" x="208.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-2-run-0" x="302.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">2</text>
+    <text id="rho-2-run-0" x="287.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.35</text>
+    <text id="delta-2-run-0" x="302.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-2-run-0" x="302.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-3-run-0" x="396.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">3</text>
+    <text id="rho-3-run-0" x="381.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.85</text>
+    <text id="delta-3-run-0" x="396.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-3-run-0" x="396.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-4-run-0" x="490.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#BB6438">4</text>
+    <text id="rho-4-run-0" x="475.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#BB6438">0.85</text>
+    <text id="delta-4-run-0" x="490.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#BB6438">0</text>
+    <text id="counter-4-run-0" x="490.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#BB6438">0</text>
+    <text id="call-5-run-0" x="584.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">5</text>
+    <text id="rho-5-run-0" x="569.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.85</text>
+    <text id="delta-5-run-0" x="584.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-5-run-0" x="584.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-6-run-0" x="678.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">6</text>
+    <text id="rho-6-run-0" x="663.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.85</text>
+    <text id="delta-6-run-0" x="678.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-6-run-0" x="678.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="call-7-run-0" x="772.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">7</text>
+    <text id="rho-7-run-0" x="757.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.85</text>
+    <text id="delta-7-run-0" x="772.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-7-run-0" x="772.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-8-run-0" x="866.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">8</text>
+    <text id="rho-8-run-0" x="851.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.35</text>
+    <text id="delta-8-run-0" x="866.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-8-run-0" x="866.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-9-run-0" x="960.160" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">9</text>
+    <text id="rho-9-run-0" x="945.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.55</text>
+    <text id="delta-9-run-0" x="960.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-9-run-0" x="960.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="call-10-run-0" x="1048.321" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">10</text>
+    <text id="rho-10-run-0" x="1039.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.55</text>
+    <text id="delta-10-run-0" x="1054.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-10-run-0" x="1054.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <text id="call-11-run-0" x="1142.321" y="385.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">11</text>
+    <text id="rho-11-run-0" x="1133.564" y="419.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0.20</text>
+    <text id="delta-11-run-0" x="1148.160" y="453.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">1</text>
+    <text id="counter-11-run-0" x="1148.160" y="487.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">0</text>
+    <line id="mapping-divider" x1="25" y1="513" x2="1170" y2="513" stroke="#94A5B3" stroke-width="1.5" />
+    <text id="risk-output-title-run-0" x="25.000" y="548.000" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Risk-side output</text>
+    <text id="risk-output-0-run-0" x="255.000" y="548.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#586874">ℓ = 0: none</text>
+    <text id="risk-output-1-run-0" x="490.000" y="548.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#28699B">ℓ = 1: auth</text>
+    <text id="risk-output-2-run-0" x="725.000" y="548.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#28699B">ℓ = 2: down</text>
+    <text id="risk-output-3-run-0" x="960.000" y="548.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#BB6438">ℓ = 3: veto</text>
+    <text id="state-note-run-0" x="25.000" y="591.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#586874">Illustrative calls, not elapsed time or measured traffic. Other requirements still combine under Eq. (9).</text>
+  </g>
+</svg>

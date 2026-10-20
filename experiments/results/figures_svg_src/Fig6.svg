@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="107.66666666666667mm" viewBox="0 0 1200 760" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Data use and separate evaluation paths</title>
+  <desc id="figure-description">Request streams use separate normal-only transition training, saved threshold selection and evaluation. Numerical model checks and consortium-chain measurements have separate evidence scopes.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="760" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1.8" />
+  <g id="request-protocol">
+    <text id="panel-a-run-0" x="25.000" y="32.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(a) Constructed-request evaluation</text>
+    <rect id="configured-shared-box" x="25" y="58" width="1140" height="62" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="configured-shared-label-0-run-0" x="124.192" y="95.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Shared configured topology and roles → fixed structural calculation and role-object endpoints</text>
+    <rect id="training-box" x="25" y="146" width="335" height="116" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="training-label-0-run-0" x="84.938" y="184.040" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Normal-only training</text>
+    <text id="training-label-1-run-0" x="107.191" y="211.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">200 req/s × 600 s</text>
+    <text id="training-label-2-run-0" x="53.722" y="238.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">One fit per stream</text>
+    <rect id="fitted-parameters-box" x="415" y="146" width="340" height="116" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="1.8" />
+    <text id="fitted-parameters-label-0-run-0" x="456.024" y="184.040" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Fit transition parameters</text>
+    <text id="fitted-parameters-label-1-run-0" x="456.019" y="211.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">Role-wise transition matrix</text>
+    <text id="fitted-parameters-label-2-run-0" x="465.123" y="238.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">and sequence endpoints</text>
+    <rect id="per-stream-use-box" x="810" y="146" width="355" height="116" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="per-stream-use-label-0-run-0" x="872.591" y="184.040" font-family="Arial" font-weight="bold" font-size="22.000" fill="#26313B">Use only the paired fit</text>
+    <text id="per-stream-use-label-1-run-0" x="851.149" y="211.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">Calibration and evaluation</text>
+    <text id="per-stream-use-label-2-run-0" x="851.139" y="238.040" font-family="Arial" font-weight="normal" font-size="22.000" fill="#26313B">each carry their own fit</text>
+    <polyline id="train-to-fit-shaft" points="360,204 415,204" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="train-to-fit-head" points="415.000,204.000 405.000,208.600 405.000,199.400" fill="#28699B" />
+    <polyline id="fit-to-paired-use-shaft" points="755,204 810,204" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="fit-to-paired-use-head" points="810.000,204.000 800.000,208.600 800.000,199.400" fill="#28699B" />
+    <rect id="calibration-box" x="25" y="308" width="335" height="116" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="calibration-label-0-run-0" x="64.700" y="345.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Three calibration streams</text>
+    <text id="calibration-label-1-run-0" x="61.173" y="372.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">120000 requests per stream</text>
+    <text id="calibration-label-2-run-0" x="48.592" y="399.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Seed offsets +101, +202, +303</text>
+    <rect id="selection-box" x="415" y="308" width="340" height="116" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="1.8" />
+    <text id="selection-label-0-run-0" x="436.221" y="345.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Structural threshold selection</text>
+    <text id="selection-label-1-run-0" x="441.502" y="372.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Own FPR ≤ 0.12; detect A1/A3</text>
+    <text id="selection-label-2-run-0" x="474.976" y="399.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">All three select θ = 0.30</text>
+    <rect id="frozen-box" x="810" y="308" width="355" height="116" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="1.8" />
+    <text id="frozen-label-0-run-0" x="851.533" y="345.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Save and freeze thresholds</text>
+    <text id="frozen-label-1-run-0" x="896.162" y="372.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">θ</text>
+    <text id="frozen-label-1-run-1" x="907.842" y="377.760" font-family="Arial" font-weight="normal" font-size="15.120" fill="#26313B">struct</text>
+    <text id="frozen-label-1-run-2" x="944.807" y="372.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B"> = θ</text>
+    <text id="frozen-label-1-run-3" x="980.419" y="377.760" font-family="Arial" font-weight="normal" font-size="15.120" fill="#26313B">trans</text>
+    <text id="frozen-label-1-run-4" x="1014.033" y="372.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B"> = 0.30</text>
+    <text id="frozen-label-2-run-0" x="849.754" y="399.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Transition θ shared by design</text>
+    <polyline id="calibration-to-selection-shaft" points="360,366 415,366" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="calibration-to-selection-head" points="415.000,366.000 405.000,370.600 405.000,361.400" fill="#28699B" />
+    <polyline id="selection-to-frozen-shaft" points="755,366 810,366" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="selection-to-frozen-head" points="810.000,366.000 800.000,370.600 800.000,361.400" fill="#28699B" />
+    <rect id="evaluation-box" x="25" y="469" width="335" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="evaluation-label-0-run-0" x="61.793" y="498.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Distinct evaluation stream</text>
+    <text id="evaluation-label-1-run-0" x="42.183" y="525.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">120000 requests; seed offset +3</text>
+    <text id="evaluation-label-2-run-0" x="43.675" y="552.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Normal-only fit for this stream</text>
+    <rect id="apply-box" x="415" y="469" width="340" height="100" rx="9" fill="#EDF4F9" stroke="#28699B" stroke-width="1.8" />
+    <text id="apply-label-0-run-0" x="466.552" y="498.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Apply saved thresholds</text>
+    <text id="apply-label-1-run-0" x="461.835" y="525.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">No selection on evaluation</text>
+    <text id="apply-label-2-run-0" x="432.094" y="552.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Report alerts and first disposition</text>
+    <rect id="timing-box" x="810" y="469" width="355" height="100" rx="9" fill="#F5F7F9" stroke="#94A5B3" stroke-width="1.8" />
+    <text id="timing-label-0-run-0" x="864.422" y="498.720" font-family="Arial" font-weight="bold" font-size="21.000" fill="#26313B">Decision-function timing</text>
+    <text id="timing-label-1-run-0" x="838.075" y="525.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Begins after inputs are available</text>
+    <text id="timing-label-2-run-0" x="859.685" y="552.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">No credential or ledger wait</text>
+    <polyline id="eval-to-apply-shaft" points="360,519 415,519" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="eval-to-apply-head" points="415.000,519.000 405.000,523.600 405.000,514.400" fill="#28699B" />
+    <polyline id="frozen-to-apply-shaft" points="987,424 987,445 585,445 585,469" fill="none" stroke="#28699B" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6" />
+    <polygon id="frozen-to-apply-head" points="585.000,469.000 580.400,459.000 589.600,459.000" fill="#28699B" />
+    <text id="timing-note-run-0" x="836.045" y="596.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Timing measured on its own</text>
+    <line id="panels-divider" x1="25" y1="614" x2="1170" y2="614" stroke="#94A5B3" stroke-width="1.5" />
+  </g>
+  <g id="separate-evidence">
+    <text id="panel-b-run-0" x="25.000" y="647.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(b) Evidence paths</text>
+    <rect id="model-checks-box" x="25" y="668" width="555" height="66" rx="9" fill="#EEF7F3" stroke="#32876C" stroke-width="1.8" />
+    <text id="model-checks-label-0-run-0" x="57.406" y="707.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Numerical model checks → interval relation, Eq. (13)</text>
+    <rect id="chain-measurements-box" x="610" y="668" width="555" height="66" rx="9" fill="#EEF7F3" stroke="#32876C" stroke-width="1.8" />
+    <text id="chain-measurements-label-0-run-0" x="641.186" y="707.720" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Four-node chain → gas, throughput and confirmation</text>
+  </g>
+</svg>

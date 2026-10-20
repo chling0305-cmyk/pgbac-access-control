@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="97.75mm" viewBox="0 0 1200 690" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Conditional timing and the feasible anchoring interval</title>
+  <desc id="figure-description">A symbolic timing envelope and projection of the unconstrained interval onto its nonempty feasible range.</desc>
+  <rect id="background" x="0" y="0" width="1200" height="690" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2.5" />
+  <g id="panel-a-timing">
+    <text id="panel-a-title-run-0" x="25.000" y="32.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(a) Conditional evidence-confirmation envelope</text>
+    <text id="conditions-run-0" x="25.000" y="70.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Successful anchoring; zero scheduling drift. Segment lengths are schematic.</text>
+    <rect id="time-segment-0" x="80" y="110" width="550" height="62" rx="0" fill="#EDF4F9" stroke="#28699B" stroke-width="2.5" />
+    <text id="time-label-0-run-0" x="262.292" y="150.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#26313B">Δt: interval budget</text>
+    <rect id="time-segment-1" x="630" y="110" width="210" height="62" rx="0" fill="#F5F7F9" stroke="#94A5B3" stroke-width="2.5" />
+    <text id="time-label-1-run-0" x="727.665" y="150.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#26313B">t</text>
+    <text id="time-label-1-run-1" x="734.055" y="155.520" font-family="Arial" font-weight="normal" font-size="16.560" fill="#26313B">v</text>
+    <rect id="time-segment-2" x="840" y="110" width="280" height="62" rx="0" fill="#EEF7F3" stroke="#32876C" stroke-width="2.5" />
+    <text id="time-label-2-run-0" x="963.500" y="150.000" font-family="Arial" font-weight="normal" font-size="23.000" fill="#26313B">t</text>
+    <text id="time-label-2-run-1" x="969.890" y="155.520" font-family="Arial" font-weight="normal" font-size="16.560" fill="#26313B">c</text>
+    <text id="time-label-2-run-2" x="978.170" y="141.260" font-family="Arial" font-weight="normal" font-size="16.560" fill="#26313B">(ζ)</text>
+    <polyline id="time-axis-shaft" points="80,184 1145,184" fill="none" stroke="#586874" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="time-axis-head" points="1145.000,184.000 1135.000,188.600 1135.000,179.400" fill="#586874" />
+    <line id="time-event-0" x1="80" y1="172" x2="80" y2="196" stroke="#586874" stroke-width="2.5" />
+    <text id="time-event-label-0-0-run-0" x="49.375" y="224.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">Record</text>
+    <text id="time-event-label-0-1-run-0" x="46.203" y="249.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">creation</text>
+    <line id="time-event-1" x1="630" y1="172" x2="630" y2="196" stroke="#586874" stroke-width="2.5" />
+    <text id="time-event-label-1-0-run-0" x="605.707" y="224.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">Batch</text>
+    <text id="time-event-label-1-1-run-0" x="590.386" y="249.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">boundary</text>
+    <line id="time-event-2" x1="840" y1="172" x2="840" y2="196" stroke="#586874" stroke-width="2.5" />
+    <text id="time-event-label-2-0-run-0" x="820.467" y="224.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">SDK</text>
+    <text id="time-event-label-2-1-run-0" x="792.481" y="249.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">submission</text>
+    <line id="time-event-3" x1="1120" y1="172" x2="1120" y2="196" stroke="#586874" stroke-width="2.5" />
+    <text id="time-event-label-3-0-run-0" x="1074.063" y="224.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">Successful</text>
+    <text id="time-event-label-3-1-run-0" x="1091.486" y="249.000" font-family="Arial" font-weight="normal" font-size="19.000" fill="#26313B">receipt</text>
+    <text id="envelope-formula-run-0" x="80.000" y="292.000" font-family="Arial" font-weight="normal" font-size="24.000" fill="#28699B">D</text>
+    <text id="envelope-formula-run-1" x="97.332" y="297.760" font-family="Arial" font-weight="normal" font-size="17.280" fill="#28699B">env</text>
+    <text id="envelope-formula-run-2" x="125.193" y="282.880" font-family="Arial" font-weight="normal" font-size="17.280" fill="#28699B">(ζ)</text>
+    <text id="envelope-formula-run-3" x="144.320" y="292.000" font-family="Arial" font-weight="normal" font-size="24.000" fill="#28699B"> = Δt + t</text>
+    <text id="envelope-formula-run-4" x="228.391" y="297.760" font-family="Arial" font-weight="normal" font-size="17.280" fill="#28699B">v</text>
+    <text id="envelope-formula-run-5" x="237.031" y="292.000" font-family="Arial" font-weight="normal" font-size="24.000" fill="#28699B"> + t</text>
+    <text id="envelope-formula-run-6" x="271.050" y="297.760" font-family="Arial" font-weight="normal" font-size="17.280" fill="#28699B">c</text>
+    <text id="envelope-formula-run-7" x="279.690" y="282.880" font-family="Arial" font-weight="normal" font-size="17.280" fill="#28699B">(ζ)</text>
+    <text id="envelope-ref-run-0" x="1048.857" y="292.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Eq. (14)</text>
+    <line id="panel-separator" x1="25" y1="320" x2="1175" y2="320" stroke="#94A5B3" stroke-width="2.5" />
+  </g>
+  <g id="panel-b-feasible-interval">
+    <text id="panel-b-title-run-0" x="25.000" y="360.000" font-family="Arial" font-weight="bold" font-size="24.000" fill="#26313B">(b) Constrained choice from the feasible interval</text>
+    <text id="lower-bound-label-run-0" x="642.887" y="404.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Δt</text>
+    <text id="lower-bound-label-run-1" x="662.749" y="409.040" font-family="Arial" font-weight="normal" font-size="15.120" fill="#26313B">min</text>
+    <text id="upper-bound-label-run-0" x="950.787" y="404.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Δt</text>
+    <text id="upper-bound-label-run-1" x="970.649" y="409.040" font-family="Arial" font-weight="normal" font-size="15.120" fill="#26313B">max</text>
+    <text id="case-label-0-run-0" x="25.000" y="462.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Below lower bound</text>
+    <rect id="feasible-region-0" x="665" y="441" width="310" height="28" rx="0" fill="#EEF7F3" stroke="none" stroke-width="2.5" />
+    <line id="interval-axis-0" x1="480" y1="455" x2="1145" y2="455" stroke="#94A5B3" stroke-width="2.5" />
+    <line id="min-tick-0" x1="665" y1="437" x2="665" y2="473" stroke="#32876C" stroke-width="2.5" />
+    <line id="max-tick-0" x1="975" y1="437" x2="975" y2="473" stroke="#32876C" stroke-width="2.5" />
+    <circle id="analytic-star-0" cx="540" cy="455" r="7" fill="#FFFFFF" stroke="#26313B" stroke-width="2.5" />
+    <polyline id="projection-0-shaft" points="540,433 665,433" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="projection-0-head" points="665.000,433.000 655.000,437.600 655.000,428.400" fill="#28699B" />
+    <text id="analytic-label-0-run-0" x="526.650" y="495.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Δt*</text>
+    <circle id="projected-opt-0" cx="665" cy="455" r="5" fill="#28699B" stroke="#28699B" stroke-width="2.5" />
+    <text id="optimal-label-0-run-0" x="645.533" y="495.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#28699B">Δt</text>
+    <text id="optimal-label-0-run-1" x="664.449" y="487.400" font-family="Arial" font-weight="normal" font-size="14.400" fill="#28699B">opt</text>
+    <text id="case-label-1-run-0" x="25.000" y="537.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Inside feasible range</text>
+    <rect id="feasible-region-1" x="665" y="516" width="310" height="28" rx="0" fill="#EEF7F3" stroke="none" stroke-width="2.5" />
+    <line id="interval-axis-1" x1="480" y1="530" x2="1145" y2="530" stroke="#94A5B3" stroke-width="2.5" />
+    <line id="min-tick-1" x1="665" y1="512" x2="665" y2="548" stroke="#32876C" stroke-width="2.5" />
+    <line id="max-tick-1" x1="975" y1="512" x2="975" y2="548" stroke="#32876C" stroke-width="2.5" />
+    <circle id="analytic-star-1" cx="815" cy="530" r="7" fill="#FFFFFF" stroke="#26313B" stroke-width="2.5" />
+    <circle id="projected-opt-1" cx="815" cy="530" r="4" fill="#28699B" stroke="#28699B" stroke-width="2.5" />
+    <text id="coincident-label-1-run-0" x="770.787" y="570.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#28699B">Δt* = Δt</text>
+    <text id="coincident-label-1-run-1" x="839.195" y="562.400" font-family="Arial" font-weight="normal" font-size="14.400" fill="#28699B">opt</text>
+    <text id="case-label-2-run-0" x="25.000" y="612.000" font-family="Arial" font-weight="normal" font-size="21.000" fill="#26313B">Above upper bound</text>
+    <rect id="feasible-region-2" x="665" y="591" width="310" height="28" rx="0" fill="#EEF7F3" stroke="none" stroke-width="2.5" />
+    <line id="interval-axis-2" x1="480" y1="605" x2="1145" y2="605" stroke="#94A5B3" stroke-width="2.5" />
+    <line id="min-tick-2" x1="665" y1="587" x2="665" y2="623" stroke="#32876C" stroke-width="2.5" />
+    <line id="max-tick-2" x1="975" y1="587" x2="975" y2="623" stroke="#32876C" stroke-width="2.5" />
+    <circle id="analytic-star-2" cx="1100" cy="605" r="7" fill="#FFFFFF" stroke="#26313B" stroke-width="2.5" />
+    <polyline id="projection-2-shaft" points="1100,583 975,583" fill="none" stroke="#28699B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    <polygon id="projection-2-head" points="975.000,583.000 985.000,578.400 985.000,587.600" fill="#28699B" />
+    <text id="analytic-label-2-run-0" x="1086.650" y="645.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#26313B">Δt*</text>
+    <circle id="projected-opt-2" cx="975" cy="605" r="5" fill="#28699B" stroke="#28699B" stroke-width="2.5" />
+    <text id="optimal-label-2-run-0" x="955.533" y="645.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#28699B">Δt</text>
+    <text id="optimal-label-2-run-1" x="974.449" y="637.400" font-family="Arial" font-weight="normal" font-size="14.400" fill="#28699B">opt</text>
+    <text id="infeasible-note-run-0" x="25.000" y="678.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874">Empty range: Δt</text>
+    <text id="infeasible-note-run-1" x="168.418" y="682.800" font-family="Arial" font-weight="normal" font-size="14.400" fill="#586874">min</text>
+    <text id="infeasible-note-run-2" x="191.621" y="678.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874"> &gt; Δt</text>
+    <text id="infeasible-note-run-3" x="233.330" y="682.800" font-family="Arial" font-weight="normal" font-size="14.400" fill="#586874">max</text>
+    <text id="infeasible-note-run-4" x="260.534" y="678.000" font-family="Arial" font-weight="normal" font-size="20.000" fill="#586874"> → no feasible interval under those inputs.</text>
+  </g>
+</svg>
